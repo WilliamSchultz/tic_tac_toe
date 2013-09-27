@@ -47,11 +47,25 @@
     margin: -2px;
   }
   
-  .box {
+  .col_1 {
     width:125px;
     height:125px;
     font-size: 120px;
-    padding: 1px; 
+
+  }
+
+  .col_2 {
+    width:125px;
+    height:125px;
+    font-size: 120px;
+
+  }
+
+  .col_3 {
+    width:125px;
+    height:125px;
+    font-size: 120px;
+
   }
 
   input[type="button"] {
