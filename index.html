@@ -28,28 +28,35 @@
 
       <h1>TIC TAC TOE</h1> 
 
-<div class="container1"> 
-    <div class="col_1" id="cell_1" onclick="playBox()"></div>
-    <div class="col_1" id="cell_2" onclick="playBox()"></div>
-    <div class="col_1" id="cell_3" onclick="playBox()"></div>
+<div class="masterContainer">
+
+    <div class="firstAlert">
+    <h2>Start</h2> </div>
+
+        <div class="container1"> 
+             <div class="col_1" id="cell_1" onclick="playBox()"></div>
+            <div class="col_1" id="cell_2" onclick="playBox()"></div>
+            <div class="col_1" id="cell_3" onclick="playBox()"></div>
+        </div> 
+
+        <div class="container2">
+             <div class="col_2" id="cell_4" onclick="playBox()"></div>
+            <div class="col_2" id="cell_5" onclick="playBox()"></div>
+            <div class="col_2" id="cell_6" onclick="playBox()"></div>
+        </div>
+
+        <div class="container3">
+            <div class="col_3" id="cell_7" onclick="playBox()"></div>
+            <div class="col_3" id="cell_8" onclick="playBox()"></div>
+            <div class="col_3" id="cell_9" onclick="playBox()"></div>
+        </div> 
+ <div class="clear"></div>
 </div> 
 
-<div class="container2">
-    <div class="col_2" id="cell_4" onclick="playBox()"></div>
-    <div class="col_2" id="cell_5" onclick="playBox()"></div>
-    <div class="col_2" id="cell_6" onclick="playBox()"></div>
-</div>
 
-<div class="container3">
-    <div class="col_3" id="cell_7" onclick="playBox()"></div>
-    <div class="col_3" id="cell_8" onclick="playBox()"></div>
-    <div class="col_3" id="cell_9" onclick="playBox()"></div>
-</div> 
-
-<div class="clear"></div>
 
 <div id="button">
-    <input type="button" value="Play" onclick="msg()">
+    <input type="button" value="Restart" onclick="reset()">
 
 
 </body>
