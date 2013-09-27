@@ -1,40 +1,72 @@
+/*function navCells() {
+var singleDimArray = [
+	
 
-<div id="content">Hello world</div>
+	for(c=1;c<=9;++c) Checks if a box has been clicked 
 
-<input type="button" id="btn1" value="click me!" onclick="pesterButtonClick()" />
+		document.getElementById("cell_"+c).onclick=
+	function(){
+		alert("you clicked me"); 
+	}
+} 
 
-<input type="checkbox" id="ckSpicy" /> Really pester you with spicy comments
 
-<br />
-<a href="ticTacToe.html">Tic Tac Toe Game!</a>
 
-<input type="button" value="Tic Tac Toe" onclick="navTicTacToe()" />
+cellArray[x-1)%3][Math.floor((n-1)/3)] = 
+	document.getElementById....
 
-<script>
 
-var stage = 1; 
+for (c=0;c<=2;++c)
+	if(cellAray[0][c] == 'X' && cellArray[1][c] == 'X' && 
+		cellArray[2][c] =='X')
+		alert("X won in column " + c); 
+*/
 
-function pesterButtonClick() {
-	var btn = document.getElementById('btn1'); 
+var turn =1;
 
-	switch(stage)
+function playBox(q){
+
+	switch(turn)
 	{
 		case 1:
-			btn.value="hey"; 
-			break; 
+		event.target.innerHTML = "X";
+		break;
+		
 		case 2:
-			btn.value="hello"; 
-			btn.style.backgroundColor = "blue"; 
-			break;
+		event.target.innerHTML = "0";
+		break;
+
 		case 3:
-			btn.value="hi"; 
-			btn.style.color = "white";
-			break;
+		event.target.innerHTML = "X";
+		break;
+
 		case 4:
-			btn.value="sup"; 
-			break;
-		default:
-			break;
+		event.target.innerHTML = "0";
+		break;
+
+		case 5:
+		event.target.innerHTML = "X";
+		break;
+
+		case 6:
+		event.target.innerHTML = "0";
+		break;
+
+		case 7:
+		event.target.innerHTML = "X";
+		break;
+
+		case 8:
+		event.target.innerHTML = "0";
+		break;
+
+		case 9:
+		event.target.innerHTML = "X";
+		break;
+
 	}
-	stage += 1
+	turn += 1; 
 }
+
+
+

@@ -47,7 +47,12 @@
     margin: -2px;
   }
   
-  .box {width:125px;height:125px;}
+  .box {
+    width:125px;
+    height:125px;
+    font-size: 120px;
+    padding: 1px; 
+  }
 
   input[type="button"] {
     background-color: white; 
