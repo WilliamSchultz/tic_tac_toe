@@ -7,17 +7,24 @@
   body {
     background-color: #ECF0F1; 
     padding: 0px 300px 400px 300px;  
-    height: 400px; 
+   height: 206px; 
     width: 400px; 
   }
 
-h1 {font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; font-size: 50px; 
-    box-shadow: 2px 2px 2px #888888;
-    background-color: white; 
-    padding: 10px 10px 10px 90px; 
-    width: 280px;
+h1 {font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; font-size: 40px; 
+    padding: 0px 0px 0px 58px;
+    margin: 32px 0px 0px 0px;
      
     }
+
+#titleContainer {
+
+  box-shadow: 2px 2px 2px #888888;
+  background-color: white; 
+  width: 381px;
+  height: 55px;
+  margin: 0px 0px 14px 0px;
+}
   #cell_1 {float:left; border:2px solid #ECF0F1; background-color: #63A69F}
   #cell_2 {float:left; border:2px solid #ECF0F1; background-color: #F2594B}
   #cell_3 {float:left; border:2px solid #ECF0F1; background-color: #63A69F}
@@ -88,27 +95,57 @@ h1 {font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "Ap
   h2 {
     padding: 0px 5px 10px 20px; 
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
-    
+    margin: 48px 0px 0px 3px;
   }
-    
+
+  #lowerContainer {
+
+  height: 91px;
+  width: 377px;
   
 
-  #button {
+}
+    h4 { 
+      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+      padding: 0px 0px 0px 10px;
+      font-size: 20px; 
+      margin: 0px 0px 0px 0px;  
+    }
+
+    h5 { 
+      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+      padding: 0px 0px 0px 10px;
+      font-size: 28px; 
+      margin: 0px 0px 0px 0px; 
+    }
+
+  .score {
+
+   height: 42px;
+width: 165px;
+margin: -3px 0px 0px 10px;
+background-color: white;
+border-radius: 20px;
+padding: 3px;
+  
+   } 
+  .button {
      
-    background-color: white; 
-    height: 40px;
-    width: 50px;
-    padding: 0px 80px 0px 80px;
-    margin: 0px 0px 0px 80px; 
-    border-radius: 20px; 
+height: 42px;
+width: 165px;
+margin: -49px 0px 0px 194px;
+background-color: white;
+border-radius: 20px;
+padding: 3px;
     
      
   }
 h3 {
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; font-size: 25px; 
-  padding: 8px 0px 10px 0px; 
-  height: 39px;
-  width: 200px; 
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; font-size: 28px; 
+  padding: 8px 0px 3px 0px;
+margin: -5px 0px 1px 35px;
+height: 39px;
+width: 200px;
   
 }
 
