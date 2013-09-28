@@ -40,10 +40,7 @@ function start(){
   reset(); 
 }
 
-function hidePopup(){
-  alert("hidepopup")
-  popup.style.display = "none"; 
-}
+
 
 
 
@@ -59,7 +56,7 @@ function playBox(){
 		break;
 
 		case 2:
-		event.target.innerHTML = "0";
+		event.target.innerHTML = "O";
 		break;
 
 		case 3:
@@ -67,7 +64,7 @@ function playBox(){
 		break;
 
 		case 4:
-		event.target.innerHTML = "0";
+		event.target.innerHTML = "O";
 		break;
 
 		case 5:
@@ -75,7 +72,7 @@ function playBox(){
 		break;
 
 		case 6:
-		event.target.innerHTML = "0";
+		event.target.innerHTML = "O";
 		break;
 
 		case 7:
@@ -83,7 +80,7 @@ function playBox(){
 		break;
 
 		case 8:
-		event.target.innerHTML = "0";
+		event.target.innerHTML = "O";
 		break;
 
 		case 9:
@@ -97,11 +94,11 @@ function playBox(){
 var sqr1 = document.getElementById("cell_1").innerHTML; 
 var sqr2 = document.getElementById("cell_4").innerHTML;
 var sqr3 = document.getElementById("cell_7").innerHTML;
-var sqr4 = document.getElementById("cell_4").innerHTML;
+var sqr4 = document.getElementById("cell_2").innerHTML;
 var sqr5 = document.getElementById("cell_5").innerHTML;
-var sqr6 = document.getElementById("cell_6").innerHTML;
-var sqr7 = document.getElementById("cell_7").innerHTML;
-var sqr8 = document.getElementById("cell_8").innerHTML;
+var sqr6 = document.getElementById("cell_8").innerHTML;
+var sqr7 = document.getElementById("cell_3").innerHTML;
+var sqr8 = document.getElementById("cell_6").innerHTML;
 var sqr9 = document.getElementById("cell_9").innerHTML;
 
 
@@ -197,5 +194,6 @@ function reset(){
   alert("reset")
 	for(i=1;i<=9;++i)
 		document.getElementById("cell_"+i).innerHTML = "";
+  turn = 1; 
 }
 
