@@ -27,7 +27,23 @@ for (c=0;c<=2;++c)
 	if(cellAray[0][c] == 'X' && cellArray[1][c] == 'X' && 
 		cellArray[2][c] =='X')
 		alert("X won in column " + c); 
+
+    documetn.getElementById("popup)")
+
+    p
 */
+
+
+function start(){
+  alert("start")
+  document.getElementById("firstAlert").style.display = "none"; 
+  reset(); 
+}
+
+function hidePopup(){
+  alert("hidepopup")
+  popup.style.display = "none"; 
+}
 
 
 
@@ -79,8 +95,8 @@ function playBox(){
 
 
 var sqr1 = document.getElementById("cell_1").innerHTML; 
-var sqr2 = document.getElementById("cell_2").innerHTML;
-var sqr3 = document.getElementById("cell_3").innerHTML;
+var sqr2 = document.getElementById("cell_4").innerHTML;
+var sqr3 = document.getElementById("cell_7").innerHTML;
 var sqr4 = document.getElementById("cell_4").innerHTML;
 var sqr5 = document.getElementById("cell_5").innerHTML;
 var sqr6 = document.getElementById("cell_6").innerHTML;
@@ -178,6 +194,7 @@ if(sqr1 == "O" && sqr2 == "O" && sqr3 == "O")
 
 
 function reset(){
+  alert("reset")
 	for(i=1;i<=9;++i)
 		document.getElementById("cell_"+i).innerHTML = "";
 }
