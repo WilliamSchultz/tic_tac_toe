@@ -44,6 +44,8 @@ function start(){
 
 
 
+var Xscore = 0;  
+var Oscore = 0;   
 
 var turn =1;
 
@@ -105,42 +107,52 @@ var sqr9 = document.getElementById("cell_9").innerHTML;
   if(sqr1 == "X" && sqr2 == "X" && sqr3 == "X")
   {
     alert("X Wins!");
+    Xscore += 1;
     reset();
+     
   } 
   else if(sqr4 == "X" && sqr5 == "X" && sqr6 == "X")
   {
-    alert("X Wins!")
-    reset()
+    alert("X Wins!");
+    Xscore += 1;
+    reset();
+    
   } 
   else if(sqr7 == "X" && sqr8 == "X" && sqr9 == "X")
   {
-    alert("X Wins!")
-    reset()
+    alert("X Wins!");
+    Xscore += 1;
+    reset();
   }
   else if(sqr1 == "X" && sqr5 == "X" && sqr9 == "X")
   {
-    alert("X Wins diag!")
-    reset()
+    alert("X Wins!");
+    Xscore += 1;
+    reset();
   }
   else if(sqr1 == "X" && sqr4 == "X" && sqr7 == "X")
   {
-    alert("X Wins!")
-    reset()
+    alert("X Wins!");
+    Xscore += 1;
+    reset();
   }
   else if(sqr2 == "X" && sqr5 == "X" && sqr8 == "X")
   {
-    alert("X Wins!")
-    reset()
+    alert("X Wins!");
+    Xscore += 1;
+    reset();
   }
   else if(sqr3 == "X" && sqr6 == "X" && sqr9 == "X")
   {
-    alert("X Wins!")
-    reset()
+    alert("X Wins!");
+    Xscore += 1;
+    reset();
   }
   else if(sqr3 == "X" && sqr5 == "X" && sqr7 == "X")
   {
-    alert("X Wins!")
-    reset()
+    alert("X Wins!");
+    Xscore += 1;
+    reset();
   }
 
 
@@ -148,41 +160,50 @@ var sqr9 = document.getElementById("cell_9").innerHTML;
 if(sqr1 == "O" && sqr2 == "O" && sqr3 == "O")
   {
     alert("O Wins!");
+    Oscore += 1; 
     reset();
+
   } 
   else if(sqr4 == "O" && sqr5 == "O" && sqr6 == "O")
   {
-    alert("0 Wins!")
+    alert("O Wins!")
+    Oscore += 1; 
     reset()
   } 
   else if(sqr7 == "O" && sqr8 == "O" && sqr9 == "O")
   {
-    alert("0 Wins!")
+    alert("O Wins!")
+    Oscore += 1; 
     reset()
   }
   else if(sqr1 == "O" && sqr5 == "O" && sqr9 == "O")
   {
-    alert("0 Wins diag!")
+    alert("O Wins diag!")
+    Oscore += 1; 
     reset()
   }
   else if(sqr1 == "O" && sqr4 == "O" && sqr7 == "O")
   {
-    alert("0 Wins!")
+    alert("O Wins!")
+    Oscore += 1; 
     reset()
   }
   else if(sqr2 == "O" && sqr5 == "O" && sqr8 == "O")
   {
-    alert("0 Wins!")
+    alert("O Wins!")
+    Oscore += 1; 
     reset()
   }
   else if(sqr3 == "O" && sqr6 == "O" && sqr9 == "O")
   {
-    alert("0 Wins!")
+    alert("O Wins!")
+    Oscore += 1; 
     reset()
   }
   else if(sqr3 == "O" && sqr5 == "O" && sqr7 == "O")
   {
-    alert("0 Wins!")
+    alert("O Wins!")
+    Oscore += 1; 
     reset()
   }
 
@@ -195,5 +216,6 @@ function reset(){
 	for(i=1;i<=9;++i)
 		document.getElementById("cell_"+i).innerHTML = "";
   turn = 1; 
+  alert(Xscore, Oscore) 
 }
 
