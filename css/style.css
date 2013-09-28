@@ -11,19 +11,19 @@
     width: 400px; 
   }
 
-h1 {font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; font-size: 40px; 
-    padding: 0px 0px 0px 58px;
-    margin: 32px 0px 0px 0px;
-     
-    }
 
-#titleContainer {
 
-  box-shadow: 2px 2px 2px #888888;
-  background-color: white; 
-  width: 381px;
-  height: 55px;
-  margin: 0px 0px 14px 0px;
+.titleContainer {
+
+   position: relative;
+   
+width: 415px;
+height: 395px;
+
+margin: -393px 0px 0px -186px;
+padding: 0px 0px 0px 0px;
+
+  
 }
   #cell_1 {float:left; border:2px solid #ECF0F1; background-color: #63A69F}
   #cell_2 {float:left; border:2px solid #ECF0F1; background-color: #F2594B}
@@ -40,6 +40,7 @@ h1 {font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "Ap
     position: relative;
     width: 500px; 
     height: 395px;
+    margin: 76px 0px 0px 164px;
   }
 
   .container1 {
@@ -105,12 +106,28 @@ h1 {font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "Ap
   
 
 }
-    h4 { 
-      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
-      padding: 0px 0px 0px 10px;
-      font-size: 20px; 
-      margin: 0px 0px 0px 0px;  
-    }
+  h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+    font-size: 102px; 
+    padding: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 0px; 
+  }
+
+  h4 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+    font-size: 102px; 
+    padding: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 0px; 
+
+  }
+
+  h6 {
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+    font-size: 102px; 
+    padding: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 0px; 
+
+  }
 
     h5 { 
       font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
