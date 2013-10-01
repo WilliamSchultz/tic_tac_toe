@@ -109,6 +109,7 @@ var sqr9 = document.getElementById("cell_9").innerHTML;
     alert("X Wins!");
     Xscore += 1;
     reset();
+    document.getElementById("score").innerHTML = Xscore 
      
   } 
   else if(sqr4 == "X" && sqr5 == "X" && sqr6 == "X")
@@ -208,6 +209,14 @@ if(sqr1 == "O" && sqr2 == "O" && sqr3 == "O")
   }
 
 } 
+
+function xDisplay() {
+  event.target.innerHTML = Xscore;  
+}
+
+function oDisplay() {
+  event.target.innerHTML = Oscore; 
+}
 
 
 
