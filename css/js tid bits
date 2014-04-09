@@ -1,0 +1,57 @@
+var firstAlertOpacity = 1.0
+var popup; 
+
+function pageLoaded()
+{
+  popup = document.getElementById("firstAlert"); 
+  timeout();   
+}
+
+function timeout()
+{
+
+  document.getElementById("firstAlert").style.opacity = firstAlertOpacity;
+  firstAlertOpacity -= .1;
+  if (firstAlertOpacity <= .5)
+      setTimeout("timeout();", 10); 
+}
+
+function hidePopup(){
+  popup.style.display = "none"; 
+}
+
+function showPopup(){
+  popup.style.display = "block";
+}
+
+
+
+
+
+var firstAlertOpacity = .9
+var popup = document.getElementById("firstAlert")
+
+function pageLoaded()
+{
+  alert("pageLoaded")
+  timeout();   
+ 
+}
+
+function timeout(){
+  alert("timeout")
+ popup.style.opacity = firstAlertOpacity;
+  while (firstAlertOpacity >= .5)
+    {     
+      setTimeout("timeout();", 30000); 
+      firstAlertOpacity -= .1; 
+    }
+
+    hidePopup()
+} 
+
+function hidePopup(){
+  alert("hidepopup")
+  popup.style.display = "none"; 
+}
+
